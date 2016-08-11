@@ -2144,6 +2144,20 @@ footer {
     font-size: 16px;
 }
 
+input[type="checkbox"]{
+    zoom: 3;
+    top: -5px;
+    left: 8%;
+}
+.checkbox span{
+    position: relative;
+    margin-left: 25px;
+    font-size: 15px;
+}   
+.checkbox{
+    margin-bottom:7%;
+}
+
 
 
 

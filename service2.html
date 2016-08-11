@@ -79,7 +79,7 @@
             <li><a href="#contact" class="page-scroll waves-effect"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a></li>
           </ul> -->
           <ul class="nav navbar-nav navbar-right">
-            <a href="#feature" style="margin-top:8px" class="page-scroll waves-effect btn btn-primary"><b>Request  Free  Quote</b></a>
+            <a href="#requestFreeQuote" style="margin-top:8px" class="page-scroll waves-effect btn btn-primary"><b>Request  Free  Quote</b></a>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -95,15 +95,104 @@
         </div>
     </section>
 	
-	<div>
-		<h3 style="font-family:helvetica">Paintball Wargames</h3>
-		<p style="font-size:15px">Business is like war. Constant battles with competitor are a norm to survive. Learning the principles of team work is essential in being able to survive the competitive environment. This exercise will put the staff through the mock simulation of battle. </p>
-	</div>
-	<div>
-		<h3 style="font-family:helvetica">Management Games</h3>
-		<p style="font-size:15px">Learning the principles of team work is essential in being able to survive the most competitive environment. Lean how to work together towards a common goal, while protecting key assets, and achieving set targets. </p>
-	</div>
-	
+	<div class="container">
+       <div class="row">
+          <div>
+        <h3 style="font-family:helvetica">Paintball Wargames</h3>
+        <p style="font-size:15px">Business is like war. Constant battles with competitor are a norm to survive. Learning the principles of team work is essential in being able to survive the competitive environment. This exercise will put the staff through the mock simulation of battle. </p>
+    </div>
+    <div>
+        <h3 style="font-family:helvetica">Management Games</h3>
+        <p style="font-size:15px">Learning the principles of team work is essential in being able to survive the most competitive environment. Lean how to work together towards a common goal, while protecting key assets, and achieving set targets. </p>
+    </div>
+
+    <section id="requestFreeQuote" class="contact-section" style="font-family: 'Open Sans', sans-serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2>Request Free Quotation</h2>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <form role="form" class="contact" method="post" action="sendEmail.php">
+                        <div class="form-group">
+                          <label for="orgType" style="float:left;width:30%;">Organization Type:</label>
+                          <input type="text" name="orgType" class="form-control" id="orgType" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="orgName" style="float:left;width:30%;">Organization Name:</label>
+                          <input type="text" name="orgName" class="form-control" id="orgName" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="" style="float:left;width:30%;">Department :</label>
+                          <input type="text" name="dept" class="form-control" id="dept" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="" style="float:left;width:30%;">Address :</label>
+                          <textarea type="text" name="address" class="form-control" id="address" required style="float:left;width:70%;margin-bottom:10px;" rows="2"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="" style="float:left;width:30%;">Person Name :</label>
+                          <input type="text" name="personName" class="form-control" id="personName" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="" style="float:left;width:30%;">Contact Number :</label>
+                          <input type="tel" name="contactNumber" class="form-control" id="contactNumber" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="" style="float:left;width:30%;">Email :</label>
+                          <input type="text" name="email" class="form-control" id="email" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="date" style="float:left;width:30%;">Date :</label>
+                          <input type="text" placeholder="DD/MM/YYYY" name="date" class="form-control" id="date" required style="float:left;width:70%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="noOfAdult" style="float:left;width:30%;">Number of Adult :</label>
+                          <input type="number" name="noOfAdult" class="form-control" id="noOfAdult" required style="float:left;width:20%;margin-bottom:10px;">
+                        </div>
+                        <div class="form-group">
+                          <label for="noOfChild" style="float:left;width:30%;">Number of Child :</label>
+                          <input type="number" name="noOfChild" class="form-control" id="noOfChild" required style="float:left;width:20%;margin-bottom:10px;">
+                          
+                        </div>
+                        <div class="checkbox" style="clear:both;">
+                          <label><input type="checkbox" value=""><span>Group package</span></label>
+                          <input type="text" class="form-control" id="groupPackage" required style="float:right;width:70%;margin-bottom:10px;padding:20px;">
+                          <!-- <input type="text" name="groupPackage" class="form-control" id="groupPackage" required style="float:right;width:70%;margin-bottom:10px;"> -->
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox" value=""><span>Tour Coach</span></label>
+                          <input type="text" class="form-control" id="tourCoach" required style="float:right;width:70%;margin-bottom:10px;padding:20px;">
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox" value=""><span>Cruise Charter</span></label>
+                          <input type="text" class="form-control" id="cruiseCharter" required style="float:right;width:70%;margin-bottom:10px;padding:20px;">
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox" value=""><span>Team Building</span></label>
+                          <input type="text" class="form-control" id="teamBuilding" required style="float:right;width:70%;margin-bottom:10px;padding:20px;">
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox" value=""><span>Ecotourism Adventure</span></label>
+                          <input type="text" class="form-control" id="adventure" required style="float:right;width:65%;margin-bottom:10px;padding:20px;">
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox" value=""><span>Youth Camp</span></label>
+                          <input type="text" class="form-control" id="youthCamp" required style="float:right;width:70%;margin-bottom:10px;padding:20px;">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="requestQuoteSubmit">Send</button>
+                        <!-- <a class="btn btn-primary">Send</a> -->
+                    </form>
+                </div>
+                
+            </div>  
+        </div>
+        
+    </section> 
+       </div> 
+    </div>
 </body>
 	
 
